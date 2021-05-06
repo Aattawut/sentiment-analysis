@@ -1,0 +1,1 @@
+web: uvivorn app:app 
