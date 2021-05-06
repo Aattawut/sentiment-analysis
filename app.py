@@ -13,10 +13,7 @@ import pickle
 
 
 app = FastAPI()
-origins = [
-    "http://localhost",
-    "http://localhost:8000",
-]
+origins = ["*"]
 app.add_middleware(
     CORSMiddleware, allow_origins=["*"], allow_methods=["*"], allow_headers=["*"],
 )
