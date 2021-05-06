@@ -2,40 +2,40 @@ wordnet
 pros_cons
 reuters
 align
-    app (package)
-    book
-    ccg (package)
-    chat (package)
-    chunk (package)
-    classify (package)
-    cluster (package)
-    collocations
-    corpus (package)
-    data
-    decorators
-    downloader
-    draw (package)
-    examples (package)
-    featstruct
-    grammar
-    help
-    inference (package)
-    internals
-    lazyimport
-    metrics (package)
-    misc (package)
-    model (package)
-    parse (package)
-    probability
-    sem (package)
-    sourcedstring
-    stem (package)
-    tag (package)
-    test (package)
-    text
-    tokenize (package)
-    toolbox
-    tree
-    treetransforms
-    util
-    yamltags
+app 
+book
+ccg)
+chat 
+chunk 
+classify 
+cluster 
+collocations
+corpus 
+data
+decorators
+downloader
+draw 
+examples 
+featstruct
+grammar
+help
+inference 
+internals
+lazyimport
+metrics 
+misc 
+model 
+parse
+probability
+sem 
+sourcedstring
+stem
+tag 
+test 
+text
+tokenize 
+toolbox
+tree
+treetransforms
+util
+yamltags
