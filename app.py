@@ -36,10 +36,5 @@ def predict_sentiment(text):
     return {'results': classifier_2}
 
 
-ngrok_tunnel = ngrok.connect(8000)
-print('Public URL:', ngrok_tunnel.public_url)
-nest_asyncio.apply()
-uvicorn.run(app)
-
-# if __name__ == "__main__":
-#uvicorn.run(app, port=80)
+if __name__ == "__main__":
+    uvicorn.run(app, port=8000)
